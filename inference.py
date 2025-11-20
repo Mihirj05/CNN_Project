@@ -1,7 +1,7 @@
 import os
 import sys
 import config 
-from models import MobileNetClassfier
+from models import MobileNetClassifier
 from utils import extract_frames, preprocess_batch, print_results_summary
 
 def classfify_video(video_path):
