@@ -1,6 +1,7 @@
 from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.applications.MobileNetV2 import decode_prediction
 import numpy as np
+from .mobilenet_model import MobileNetClassifier
 
 class MobileNetClassfier:
     def __init__(self):
